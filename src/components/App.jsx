@@ -13,7 +13,6 @@ function App(){
             </header>
             <RestaurantList />
         </div>
-
     )
 }
 

@@ -22,7 +22,7 @@ function RestaurantList(){
     }
 
     function fetchData(){
-        fetch(`http://opentable.herokuapp.com/api/restaurants?city=${city}`)
+        fetch(`https://opentable.herokuapp.com/api/restaurants?city=${city}`)
         .then(response => response.json())
         .then(data => {
         setResult(data.restaurants);

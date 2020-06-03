@@ -11,10 +11,6 @@ function Restaurant({ town }){
                     <ul className = "list-style-address"><li>{ town.address }</li></ul>
                     <ul className = "list-style-price"><li>${ town.price }</li></ul>
             </div>
-
-               
-
-
         </div>
 
     )
