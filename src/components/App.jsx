@@ -9,7 +9,7 @@ function App(){
         <div>
             <header>
                 <h1>Deliver it!</h1>
-                <img src={logo} alt="logo-car"/>
+                <img className = "logo" src={logo} alt="logo-car"/>
             </header>
             <RestaurantList />
         </div>

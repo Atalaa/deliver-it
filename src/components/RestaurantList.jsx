@@ -36,8 +36,9 @@ function RestaurantList(){
       <form onSubmit={handleSubmit}>       
         <div className = "search-city">
           <input ref={inputRef} type="search" onChange={handleChange} id="name" placeholder="Find a city..." size="20"/>
-          <button type="submit" id="search">Search</button>
         </div>
+        <button type="submit" id="search">Search</button>
+
         
       </form>
 

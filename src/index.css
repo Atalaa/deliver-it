@@ -6,6 +6,27 @@ body {
     font-family: "Lato", sans-serif;
     line-height: 1.7;
 }
+button{
+    box-shadow: 0px 0px 0px 2px #9fb4f2;
+        background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+        background-color:#7892c2;
+        border-radius:10px;
+        border:1px solid #4e6096;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:19px;
+        padding:12px 37px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #283966;
+        outline: none;
+
+}
+
+#search{
+    margin-left: 5px;
+}
 
 ul{
     list-style-type: none;
@@ -25,10 +46,6 @@ ul{
     font-size: 1.8rem;
 }
 
-#search{
-    margin-left: 5px;
-}
-
 .search-city{
     margin-bottom: 2rem;
 }
@@ -44,3 +61,25 @@ ul{
                 url('./images/resto1.jpeg');
 }
 
+
+/* MEDIA QUERIES */
+
+/* // width < 1200px - tablet landscape */
+@media only screen and (max-width: 900px) { 
+
+    input{
+        padding: 8px;
+    }
+    button{
+        text-align: center;
+    }
+
+    img{
+        width: 15rem;
+    }
+
+    .card{
+        width: 90%;
+        margin: 3rem 1rem;        
+    }
+}
