@@ -72,6 +72,7 @@ ul{
     }
     button{
         text-align: center;
+        outline: none;
     }
 
     img{
